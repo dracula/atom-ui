@@ -1,0 +1,38 @@
+.tree-view {
+  font-size: @font-size;
+  background: @tree-view-background-color;
+
+  .project-root {
+    &:before {
+      height: @tab-height + 1px; // + 1px border
+      border-bottom: 1px solid @base-border-color;
+    }
+    & > .header .name {
+        line-height: @tab-height + 1px; // + 1px border
+    }
+  }
+
+  .selected:before {
+    background: @background-color-highlight;
+  }
+}
+
+.tree-view-resizer {
+  .tree-view-resize-handle {
+    width: 8px;
+  }
+}
+
+.focusable-panel {
+  opacity: 1;
+  background: @tree-view-background-color;
+
+  &:focus {
+    .selected {
+      color: @text-color-selected;
+      &:before {
+        background: @background-color-selected;
+      }
+    }
+  }
+}
