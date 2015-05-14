@@ -98,7 +98,7 @@
       top: @tab-height/2 - @modified-icon-width/2 + 1px;
       width: @modified-icon-width;
       height: @modified-icon-width;
-      border-color: @base-accent-color;
+      border-color: @tab-accent-color;
       transform: scale(1);
     }
 
@@ -129,7 +129,7 @@
   .placeholder {
     margin: 0;
     height: @tab-height + @tab-top-padding;
-    background: @base-accent-color;
+    background: @tab-accent-color;
     pointer-events: none;
     &:after {
       top: @tab-height/2 + @tab-top-padding - 5px ;
@@ -138,7 +138,7 @@
       margin: 0;
       border-radius: 0;
       border: 5px solid;
-      border-color: transparent transparent transparent @base-accent-color;
+      border-color: transparent transparent transparent @tab-accent-color;
       background: transparent;
     }
 
@@ -147,7 +147,7 @@
 
       &:after {
         margin-left: -10px;
-        border-color: transparent @base-accent-color transparent transparent;
+        border-color: transparent @tab-accent-color transparent transparent;
       }
     }
   }
@@ -166,7 +166,7 @@
   left: 0;
   width: 2px;
   height: @tab-height + @tab-bottom-border-height;
-  background: @base-accent-color;
+  background: @tab-accent-color;
   transform: scaleY(0);
   transition: transform .08s;
 }
