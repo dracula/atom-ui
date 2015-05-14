@@ -21,6 +21,17 @@
   .tree-view-resize-handle {
     width: 8px;
   }
+	/deep/ ::-webkit-scrollbar-track {
+		background: @tree-view-scrollbar-background-color;
+	}
+
+	/deep/ ::-webkit-scrollbar-thumb {
+		border: 3px solid @tree-view-scrollbar-background-color;
+	}
+
+	/deep/ ::-webkit-scrollbar-corner {
+		background: @tree-view-scrollbar-background-color;
+	}
 }
 
 .focusable-panel {
