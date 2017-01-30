@@ -6,6 +6,6 @@
   "license": "MIT",
   "repository": "https://github.com/ichi3pm/dracula-ui",
   "engines": {
-    "atom": ">0.40.0"
+    "atom": ">1.31.0"
   }
 }
