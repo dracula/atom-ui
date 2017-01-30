@@ -4,7 +4,7 @@
   "version": "0.4.0",
   "description": "dracula UI theme for Atom",
   "license": "MIT",
-  "repository": "https://github.com/yl0g0ly/dracula-ui",
+  "repository": "https://github.com/ichi3pm/dracula-ui",
   "engines": {
     "atom": ">0.40.0"
   }
