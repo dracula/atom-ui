@@ -6,7 +6,13 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/x](https://draculatheme.com/x).
+Install using Atom
+
+1. Go to Atom -> Preferences...
+2. Then select the Install tab
+3. Click the Themes button to the right of the search box
+4. Enter dracula-ui in the search box
+
 
 ## Team
 
