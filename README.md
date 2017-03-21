@@ -19,7 +19,7 @@ Install using Atom
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/atom-ui/graphs/contributors).
 
 [![ichi](https://avatars.githubusercontent.com/ichi0g0y?v=3&s=70)](https://github.com/ichi0g0y) |
-:---: | :---:
+--- |
 [ichi](https://github.com/ichi0g0y) |
 
 
